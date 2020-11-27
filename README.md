@@ -5,7 +5,7 @@ Proyecto donde se encuentra lo solicitado para el **test tecnico** de awto.
 
 ## Observaciones de ejecución
 
-El software fue desarollado bajo el **mariadb** .
+El software fue desarollado bajo el motor **mariadb** .
 
 ```
 mariadb  Ver 15.1 Distrib 10.5.8-MariaDB, for Linux (x86_64) using readline 5.1
