@@ -2,6 +2,7 @@ package org.klawx3.awtotest.persistence.model;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.sql.Timestamp;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,7 +13,7 @@ public class Log {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private Date creationDate;
+    private Timestamp creationDate;
     private String host;
     private String details;
 
@@ -39,11 +40,11 @@ public class Log {
         this.id = id;
     }
 
-    public Date getCreationDate() {
+    public Timestamp getCreationDate() {
         return creationDate;
     }
 
-    public void setCreationDate(Date creationDate) {
+    public void setCreationDate(Timestamp creationDate) {
         this.creationDate = creationDate;
     }
 
